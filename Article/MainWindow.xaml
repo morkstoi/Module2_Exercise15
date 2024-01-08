@@ -1,0 +1,171 @@
+﻿<Window x:Class="Article.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Article"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <FlowDocumentScrollViewer>
+            <FlowDocument>
+                <Paragraph FontSize="24" FontFamily="Arial" FontWeight="Bold" >
+                    <Run Foreground="DarkGreen">
+                        Ядовитые змеи
+                    </Run>
+                </Paragraph>
+                <Paragraph >
+                    Ядовитые змеи - это опасные пресмыкающиеся, которые имеют
+                    <Underline>ядовитые клыки или железы</Underline> для выделения яда.
+                </Paragraph>
+
+
+                <Table CellSpacing="10">
+                    <Table.Columns>
+                        <TableColumn Width="0.7*"/>
+                        <TableColumn Width="*"/>
+                        <TableColumn Width="2*"/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell >
+                                <Paragraph>
+                                    Название змеи
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Внешний вид
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Описание
+                                </Paragraph>
+                            </TableCell>
+
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Тайпан
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <BlockUIContainer>
+                                    <Image Source="Data/taipan.jpg"/>
+                                </BlockUIContainer>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    В 2018 году специалисты Австралийского парка рептилий выдоили из одной особи этого вида 3,1027 г яда, что в два раза больше средней дозы. Ученые подсчитали, что
+                                    <Italic>одним укусом тайпан может убить 100 человек.</Italic> В австралийском штате Квинсленд, где тайпанов больше всего, погибает каждый второй укушенный.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Сетчатая коричневая змея
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <BlockUIContainer>
+                                    <Image Source="Data/brownmeshsnake.jpg"/>
+                                </BlockUIContainer>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    В списке самых опасных сухопутных рептилий сетчатая коричневая змея уступает лишь тайпану. Но если последний предпочитает селиться вдали от людей,
+                                    <Italic>эту рептилию можно встретить возле ферм и даже в городской черте.
+                                    </Italic> Причина — рацион, состоящий в основном из грызунов.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Змея Белчера
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <BlockUIContainer>
+                                    <Image Source="Data/belchera.jpg"/>
+                                </BlockUIContainer>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Одной из самых опасных змей в мире по праву считается змея Белчера, она же самая ядовитая морская змея. Один ее укус может убить до 1000 человек! Известно, что
+                                    <Italic>яд морских змей обладает большей токсичностью, чем сухопутных.
+                                    </Italic> Все потому, что холоднокровные животные, к которым относятся рыбы, чувствительны к яду менее теплокровных.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Черная мамба
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <BlockUIContainer>
+                                    <Image Source="Data/blackmamba.jpg"/>
+                                </BlockUIContainer>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Крупная, ядовитая, агрессивная и жестокая змея из рода мамб является грозой континента и входит в число самых ядовитых в мире. Черная мамба может передвигаться со скоростью 18 км/ч, что примерно равняется средней скорости бега тренированного человека. Одного укуса ей обычно мало. Она предпочитает добить жертву и потому
+                                    <Italic>впрыскивает несколько порций яда, вводя от 100 до 400 мг.
+                                    </Italic> Человеку, чтобы умереть, достаточно всего 15 мг.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Тигровая змея
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <BlockUIContainer>
+                                    <Image Source="Data/tigersnake.jpg"/>
+                                </BlockUIContainer>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Italic>Одного укуса тигровой змеи хватит, чтобы убить 400 человек!
+                                    </Italic> К счастью, рептилия миролюбива, да и яда у нее не так много, чтобы тратить его впустую. Увидев опасность, она предпочитает уползти. Никогда не заползает в жилища и вообще предпочитает держаться подальше от человека, прибегая к своему оружию только в качестве самозащиты.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                <Paragraph >
+                    Первая помощь до оказания врачебной помощи должна заключаться в следующем:
+                </Paragraph>
+                <List MarkerStyle="Disc" >
+                    <ListItem>
+                        <Paragraph>
+                            Пострадавший должен находиться в таком положении, чтобы укушенная конечность была ниже уровня сердца.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Если укус произошел через одежду, аккуратно снимите ее или разрежьте.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Протрите кожу вокруг укуса.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Необходим активный питьевой режим.
+                        </Paragraph>
+                    </ListItem>
+                </List>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Grid>
+</Window>
